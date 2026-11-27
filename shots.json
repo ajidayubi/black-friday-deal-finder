@@ -1,0 +1,8 @@
+{
+  "screenshots": [
+    {"file": "1-deals.jpg", "view": "Desktop 1280x800: the full deal list, sorted by biggest discount, with stats bar and filters"},
+    {"file": "2-deal.jpg", "view": "Desktop 1280x800: one deal's detail page (TCL 65-inch TV) with prices, source and check time"},
+    {"file": "3-filters.jpg", "view": "Desktop 1280x800: the list filtered to true deals only at Target, showing the filters working"},
+    {"file": "4-deal-phone.jpg", "view": "Phone 390x844: the deal list on a phone-sized screen"}
+  ]
+}

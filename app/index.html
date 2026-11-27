@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deal Beacon — Black Friday 2026 deals, checked</title>
+<meta name="description" content="26 real Black Friday and Cyber Monday deals, each checked at its store on 27 Nov 2026, with an honest verdict on whether it is really a deal.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <p class="brand"><a href="#/">&#9679; Deal Beacon</a></p>
+    <h1>Black Friday deals worth your money</h1>
+    <p class="lede">26 deals our agent found and checked at their stores on 27 Nov 2026. Every price shows its source, and every deal carries an honest verdict: a true deal, a strong price, or a routine sale.</p>
+  </div>
+</header>
+<main class="wrap">
+  <section id="controls" class="controls" aria-label="Search and filter deals">
+    <label>Search <input id="search" type="search" placeholder="TV, AirPods, Dyson&hellip;" autocomplete="off"></label>
+    <label>Category <select id="category"><option>All</option></select></label>
+    <label>Store <select id="store"><option>All</option></select></label>
+    <label>Min. discount <input id="min-discount" type="range" min="0" max="60" step="5" value="0"> <span id="min-discount-label">Any discount</span></label>
+    <label>Sort <select id="sort">
+      <option value="discount">Biggest discount</option>
+      <option value="savings">Most dollars saved</option>
+      <option value="price-low">Lowest price</option>
+      <option value="price-high">Highest price</option>
+    </select></label>
+    <label class="check"><input id="true-only" type="checkbox"> True deals only</label>
+  </section>
+  <p id="count-line" class="count" aria-live="polite"></p>
+  <div id="main"></div>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p>Prices read from the named deals source for each deal on 27 Nov 2026, 14:10 WIB. Sale prices move during Black Friday week: re-check the store link before you buy.</p>
+    <p>Deal Beacon is an independent deal finder. Store names belong to their owners; links open the store's own search for the product. No prices are fetched from the network while you browse: every deal lives in this site's own files.</p>
+  </div>
+</footer>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
